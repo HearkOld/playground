@@ -46,11 +46,11 @@ var o = {
     notif = {
         favicon: new Favico({
             animation: "pop",
-            type: "rectangle"
+            type: "round"
         }),
         faviconNoAnim: new Favico({
             animation: "none",
-            type: "rectangle"
+            type: "round"
         }),
         count: 0,
         update: function() {

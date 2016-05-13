@@ -22,6 +22,13 @@ var notif = {
     
     dec: function(){
         notif.count--;
+    },
+    
+    // Adds a notification for each value in array
+    forEach: function(array) {
+        for(var i = 0; i < array.length; i++){
+            notif.update();
+        }
     }
     
 

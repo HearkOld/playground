@@ -1,5 +1,14 @@
 /*
 Notifications with Favico.js - Heark
+
+Functions:
+notif.count - total number of current notifications
+notif.update() - Adds 1 notification to favicon
+notif.titleUpdate() - updates the favicon (already called every second)
+notif.clear() - Clears all notifications
+notif.dec() - Removes 1 notification
+notif.forEach(array) - Adds 1 notification for each value in array
+
 */
 
 Object.prototype.watch || Object.defineProperty(Object.prototype, "watch", {
